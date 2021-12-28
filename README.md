@@ -1,2 +1,3 @@
-# MovieSearch
-Search for a desired movie using javascript
+<p align='center'>
+  <img src='gif.gif'>
+</p>
