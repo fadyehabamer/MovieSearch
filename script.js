@@ -46,6 +46,14 @@ function showMovies(movies) {
                 ${overview}
             </div>
         `;
+        
+          arr = document.querySelectorAll("img")
+        for(let i = 0 ; i<arr.length; i++){
+            // console.log(arr[i].src);
+            if(arr[i].src.includes("null")){
+                arr[i].src='./notfound.png'
+            }
+        }
 
         main.appendChild(movieEl);
     });
